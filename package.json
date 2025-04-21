@@ -1,0 +1,12 @@
+{
+  "name": "log-parser",
+  "version": "1.0.0",
+  "description": "Parse log file and return most views and unique views # Init repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
