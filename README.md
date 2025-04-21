@@ -33,6 +33,6 @@ npx ts-node src/app.ts
 # To Endpoints to check 
 
 ```
-GET http://localhost:3000/parse-log – total page views
-GET http://localhost:3000/parse-unique-views – unique page views
+GET http://localhost:3014/ – total page views
+GET http://localhost:3014/get-unique-views – unique page views
 ```

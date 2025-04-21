@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { parseLogFile, parseUniqueViews } from './parser';
 const router = Router();
 
-router.get('/get-most-page-views', async (req, res) => {
+router.get('/', async (req, res) => {
 
     try {
         const logEntries = await parseLogFile();
