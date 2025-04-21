@@ -46,3 +46,10 @@ docker build -t log-parser-app .
 # Run the container
 docker run -p 3000:3000 -v $(pwd)/uploads:/app/uploads log-parser
 ```
+
+#Note: In case volume permisison error 
+
+```
+sudo docker run -p 3000:3000 -v $(pwd)/uploads:/app/uploads log-parser
+
+```
