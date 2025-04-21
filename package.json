@@ -2,9 +2,10 @@
   "name": "log-parser",
   "version": "1.0.0",
   "description": "Parse log file and return most views and unique views # Init repo",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/app.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
