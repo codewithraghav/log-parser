@@ -36,3 +36,13 @@ npx ts-node src/app.ts
 GET http://localhost:3014/ – total page views
 GET http://localhost:3014/get-unique-views – unique page views
 ```
+
+
+# Option 2) Run using docker image
+
+```
+docker build -t log-parser-app .
+
+# Run the container
+docker run -p 3000:3000 -v $(pwd)/uploads:/app/uploads log-parser
+```
