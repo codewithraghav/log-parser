@@ -16,20 +16,19 @@ npm install -D typescript ts-node @types/node @types/express
 npm install -D jest ts-jest @types/jest
 
 ```
-
-# To test the endpoints
-
-```
-npx ts-node src/app.ts
-
-```
-
 # To run the tests
 
 ```
 npm test
 ```
 
+
+# To run app and use the endpoints
+
+```
+npx ts-node src/app.ts
+
+```
 
 # To Endpoints to check 
 
