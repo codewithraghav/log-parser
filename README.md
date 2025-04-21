@@ -2,19 +2,38 @@
 Parse log file and return most views and unique views
 # Init repo
 ```
-## npm init -y
-## npx tsc --init
-## npx ts-jest config:init
-
-#  Install runtime dependencies
-## npm install express
-
-## npm install -D typescript ts-node @types/node @types/express
-## npm install -D jest ts-jest @types/jest
+ npm init -y
+npx tsc --init
+npx ts-jest config:init
 
 ```
 
 
+# Install runtime dependencies
+```
+npm install express
+npm install -D typescript ts-node @types/node @types/express
+npm install -D jest ts-jest @types/jest
+
+```
+
+# To test the endpoints
+
+```
+npx ts-node src/app.ts
+
+```
+
+# To run the tests
+
+```
+npm test
+```
 
 
+# To Endpoints to check 
 
+```
+GET http://localhost:3000/parse-log – total page views
+GET http://localhost:3000/parse-unique-views – unique page views
+```
